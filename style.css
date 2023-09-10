@@ -25,7 +25,8 @@ header ul{
 
 header li{
     float: left;
-    padding-right: 32px;
+    margin-right: 32px;
+    border-bottom: whitesmoke solid 2px;
 }
 
 header li a{
