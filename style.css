@@ -8,13 +8,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(src/cover.jpeg);
+    background-size: cover;
+    background-position: center;
 }
 .top-title {
     display: block;
-    font-size: 6vh;
+    font-size: 10vw;
     letter-spacing: 0.1em;
     color: white;
-    background-color: black;
     padding: 8px 32px;
     border-radius: 8px;
     text-align: center;
@@ -24,7 +26,8 @@ body {
 .top-text {
     font-size: 24px;
     font-weight: bold;
-    letter-spacing: 1px;
+    letter-spacing: 4px;
+    line-height: 96px;
     text-align: center;
     background-color: black;
     padding: 40px 0;
@@ -34,7 +37,7 @@ body {
 
 footer{
     font-weight: bold;
-    margin-left: 8px;
-    margin-top: -8px;
-    margin-bottom: 8px;
+    margin-top: -12px;
+    margin-bottom: 0;
+    background-color: black;
 }
