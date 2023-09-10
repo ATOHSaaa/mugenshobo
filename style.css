@@ -41,7 +41,7 @@ body {
 }
 
 .top-text {
-    font-size: 3.8vw;
+    font-size: 3.7vw;
     font-weight: bold;
     letter-spacing: 4px;
     line-height: 3em;
@@ -61,7 +61,34 @@ footer{
 h2{
     font-family: 'BIZ UDPMincho', serif;
     font-size: 8vw;
-    margin-top: 24px;
+    margin-top: 80px;
     text-align: center;
     font-weight: 700;
+}
+
+.container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ margin: 8px 80px;
+ gap: 16px 16px;
+}
+
+.container img{
+    border: whitesmoke solid 3px;
+
+}
+
+.member .container img {
+    border-radius: 100px;
+}
+
+.name {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+
 }
