@@ -4,6 +4,35 @@ body {
     margin: 0;
 }
 
+header {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    margin-top: 8px;
+    text-align: right;
+    height: 10vh;
+    width: 100%;
+}
+
+header ul{
+    list-style: none;
+}
+
+header li{
+    float: left;
+    padding-right: 24px;
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+}
+
 .top {
     height: 100vh;
     display: flex;
