@@ -24,13 +24,13 @@ body {
 }
 
 .top-text {
-    font-size: 24px;
+    font-size: 3vw;
     font-weight: bold;
     letter-spacing: 4px;
-    line-height: 96px;
+    line-height: 12vw;
     text-align: center;
     background-color: black;
-    padding: 40px 0;
+    padding: 40px 8px;
     color: white;
 
 }
