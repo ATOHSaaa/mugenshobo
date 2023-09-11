@@ -152,7 +152,6 @@ h2{
 }
 
 @media screen and (max-width:600px) {
-    /*　画面サイズが480pxからはここを読み込む　*/
     .top-title {
         font-size: 20vw;
         -ms-writing-mode: tb-rl;
